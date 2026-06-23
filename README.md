@@ -10,14 +10,6 @@ Each skill is just a folder of plain files, so it isn't tied to any single tool.
 - **Codex / OpenAI agents** — point your agent at the `SKILL.md` as instructions; several skills ship an `agents/openai.yaml` for this.
 - **Any other agentic setup** — the `SKILL.md` is human- and model-readable, and the scripts run standalone (Python / bash), so you can wire them into any framework or run them by hand.
 
-This repository is an export of the skill sources from `/workspace/files/skills`.
-
-Included:
-- skill definitions and supporting docs
-- no generated archives
-- no embedded secrets, API keys, or token material
-
-The public export is intentionally minimal so it can be mirrored or reused safely.
 
 ## Skills
 
