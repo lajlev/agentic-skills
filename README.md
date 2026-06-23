@@ -1,5 +1,7 @@
 # Agentic Skills
 
+![Agentic skills illustration](assets/agentic-skills.png)
+
 A collection of self-contained **agentic skills** — small, focused capabilities (a `SKILL.md` describing when and how to use it, plus any supporting scripts) that an AI agent can load on demand to perform a real task: querying APIs, fetching weekly grocery offers, or finding recipes.
 
 Each skill is just a folder of plain files, so it isn't tied to any single tool. You can use them with:
