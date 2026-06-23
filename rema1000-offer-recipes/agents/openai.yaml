@@ -1,0 +1,4 @@
+interface:
+  display_name: "REMA 1000 Opskriftshjælp"
+  short_description: "Opskrifter fra ugens REMA-tilbud og gem i recipes/"
+  default_prompt: "Find en aftensmadsopskrift til 4 personer med udgangspunkt i ugens REMA 1000 tilbud, vis estimeret besparelse og gem valgt opskrift som markdown i recipes/."

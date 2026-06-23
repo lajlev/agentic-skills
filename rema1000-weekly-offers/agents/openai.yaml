@@ -1,0 +1,4 @@
+interface:
+  display_name: "REMA 1000 Weekly Offers"
+  short_description: "Save this week REMA 1000 offers from eTilbudsavis"
+  default_prompt: "Find todays REMA 1000 weekly tilbudsavis on etilbudsavis.dk and save all offers to offers/rema1000/rema1000_{year}_week-{weekNumber}.json."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bilka Weekly Offers"
+  short_description: "Save this week Bilka offers from eTilbudsavis"
+  default_prompt: "Find todays Bilka weekly tilbudsavis on etilbudsavis.dk and save all offers to offers/bilka/bilka_{year}_week-{weekNumber}.json."

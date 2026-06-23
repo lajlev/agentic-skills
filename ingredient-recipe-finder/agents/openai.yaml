@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ingrediens Opskriftsfinder"
+  short_description: "Find opskrifter ud fra én eller flere ingredienser i Firestore"
+  default_prompt: "Find 3 opskrifter der bruger broccoli og nudler."
