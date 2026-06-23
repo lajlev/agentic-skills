@@ -1,5 +1,13 @@
 # Agentic Skills
 
+A collection of self-contained **agentic skills** — small, focused capabilities (a `SKILL.md` describing when and how to use it, plus any supporting scripts) that an AI agent can load on demand to perform a real task: querying APIs, fetching weekly grocery offers, or finding recipes.
+
+Each skill is just a folder of plain files, so it isn't tied to any single tool. You can use them with:
+
+- **Claude Code** — drop a skill folder into your project (or `~/.claude/skills/`) and the agent picks it up automatically; trigger it by describing the task or with `/<skill-name>`.
+- **Codex / OpenAI agents** — point your agent at the `SKILL.md` as instructions; several skills ship an `agents/openai.yaml` for this.
+- **Any other agentic setup** — the `SKILL.md` is human- and model-readable, and the scripts run standalone (Python / bash), so you can wire them into any framework or run them by hand.
+
 This repository is an export of the skill sources from `/workspace/files/skills`.
 
 Included:
